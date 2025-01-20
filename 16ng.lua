@@ -25,7 +25,6 @@ end
 
 grid = function(x, y, z)
 	grid_led_all(0)
-	grid_refresh()
 	local cc_val = math.floor(linlin(1, 16, 127, 1, y))
 	if z == 1 then
 		midi_cc(cc_numbers[x], cc_val, cc_chans[x])
