@@ -1,5 +1,5 @@
 # threes
-a place to store some scripts for monomes iii enabled devices 
+a place to store some scripts for monomes [iii](https://github.com/monome/iii) enabled devices 
 
 
 ### 16ng
