@@ -3,7 +3,7 @@ print("16n but on a grid zero")
 print("edit the cc_numbers & cc_chans tables to configure")
 
 -- change these numbers to configure your faders cc numbers
-local cc_numbers = {7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7}
+local cc_nums = {7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7}
 -- change these numbers to configure midi channels for your faders
 local cc_chans = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16}
 
