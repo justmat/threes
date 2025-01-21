@@ -3,8 +3,8 @@ print("big honkin x/y macro pad for grid zero")
 print("")
 
 -- edit these to configure channel and cc numbers
-local cc_chan = {4, 4, 4, 4}
-local cc_num = {12, 13, 14, 15}
+local cc_chans = {4, 4, 4, 4}
+local cc_nums = {12, 13, 14, 15}
 -- for drawing on the grid
 local last_pressed = {1, 1}
 
@@ -40,10 +40,10 @@ grid = function(x, y, z)
 	end
 	get_cc_vals()
 	-- send ccs
-	midi_cc(cc_num[1], cc_val_x, cc_chan[1])
-	midi_cc(cc_num[2], cc_val_y, cc_chan[2])
-	midi_cc(cc_num[3], cc_val_negx, cc_chan[3])
-	midi_cc(cc_num[4], cc_val_negy, cc_chan[4])
+	midi_cc(cc_nums[1], cc_val_x, cc_chans[1])
+	midi_cc(cc_nums[2], cc_val_y, cc_chans[2])
+	midi_cc(cc_nums[3], cc_val_negx, cc_chans[3])
+	midi_cc(cc_nums[4], cc_val_negy, cc_chans[4])
 
 	draw_xy()
 end
