@@ -11,3 +11,8 @@ configure cc numbers and channels by editing the ``cc_nums`` and ``cc_chans`` ta
 xy macro pad for grid zero
 
 configure cc numbers and channels by editing the ``cc_nums`` and ``cc_chans`` tables.
+
+### wk3
+norns awake like thing
+
+docs/script to come
